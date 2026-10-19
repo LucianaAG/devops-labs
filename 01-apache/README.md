@@ -25,6 +25,7 @@ Instalar Apache en Debian 13 y servir una página HTML estática que muestre el 
    sudo systemctl status apache2
 ```
    ![Apache corriendo](img/apache-running.png)
+   
 4. Probar desde el navegador del host, con la IP de la VM: `http://192.168.84.131`
 
    ![Página por defecto de Apache](img/apache-default-page.png)
