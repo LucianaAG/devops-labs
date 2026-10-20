@@ -55,6 +55,7 @@ Servir la misma página estática del escenario 1, pero desde un contenedor Dock
 ![Curl](img/curl-localhost-to-visualize-the-index-message.png)
 
 7. Desde el navegador del host:
+
 ![Navegador](img/hello-from-docker.png)
 
 ### Paso 2: título del paso
