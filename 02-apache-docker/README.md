@@ -48,10 +48,14 @@ Servir la misma página estática del escenario 1, pero desde un contenedor Dock
    sudo docker ps
 ```
 ![Contenedor corriendo](img/container-running.png)
-6. Verifica que Apache responda sirviendo el index.html:
+6. Verifica desde local que Apache responda sirviendo el index.html:
 ```bash
    curl localhost
 ```
+![Curl](img/curl-localhost-to-visualize-the-index-message.png)
+
+7. Desde el navegador del host:
+![Navegador](img/hello-from-docker.png)
 
 ### Paso 2: título del paso
 
