@@ -1,15 +1,10 @@
 # NN - Título del escenario
 Página estatica con Nginx
 
-## Objetivo
+# Objetivo
 Servir una página estatica con Nginx, en lugar de Apache
 
-## Entorno
-| VM | IP | SO | Rol |
-|----|----|----|-----|
-| debianworker |192.168.84.131/  | debian 13 | worker |
-
-## Pasos
+# Pasos
 
 1. Desinstala Apache:
 ```bash
