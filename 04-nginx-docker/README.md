@@ -29,8 +29,11 @@ Servir una página estatica desde un contenedor con Nginx
 
 ## Problemas y soluciones
 **Síntoma:** Al hacer 'curl localhost', Nginx del contenedor no servia el index.
+
 **Diagnóstico:** Verifiqué con un 'sudo ss -tlnp | grep ':80' por quién estaba siendo ocupado el puerto 80, y figuraba que por el contenedor docker.
+
 **Causa:** Al final descubrí con un 'sudo docker ps', que nginx del contenedor escuchaba en el puerto 8080, no en el 80.
+
 **Solución:** Configuré Nginx del contenedor para que escuche en el puerto 80, el por defecto y luego sirvió con exito el index en el puerto 80.
 
 ## Qué aprendí
