@@ -1,16 +1,7 @@
-# 01 - Apache: página estática que muestra el nombre del servidor
-
-## Objetivo
-Instalar Apache en Debian 13 y servir una página HTML estática que muestre el nombre del servidor.
-
-## Entorno
-| VM | IP | SO | Rol |
-|----|----|----|-----|
-| debianworker | 192.168.84.131 | Debian 13 | Servidor web (Apache) |
+# Apache: página estática que muestra el nombre del servidor
+Objetivo: Instalar Apache en Debian 13 y servir una página HTML estática que muestre el nombre del servidor.
 
 ## Pasos
-
-### Paso 1: instalar Apache
 
 1. Descargar la lista más reciente de programas disponibles:
 ```bash
@@ -52,10 +43,6 @@ Instalar Apache en Debian 13 y servir una página HTML estática que muestre el 
 
 ![Página con el nombre del servidor desde local](img/page-with-the-server-name-from-localhost.png)
 
-### Paso 2: ...
-
-## Problemas y soluciones
-Síntoma → diagnóstico → causa → solución.
 
 ## Qué aprendí
 
