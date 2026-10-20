@@ -1,4 +1,4 @@
-# NN - Título del escenario
+# Título del escenario
 Página estatica con Nginx
 
 # Objetivo
