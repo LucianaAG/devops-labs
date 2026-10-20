@@ -1,5 +1,4 @@
-# Título del escenario
-Página estatica con Nginx
+# Página estatica con Nginx
 
 # Objetivo
 Servir una página estatica con Nginx, en lugar de Apache
