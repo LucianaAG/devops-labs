@@ -1,7 +1,7 @@
 # Página estatica con Nginx
 Objetivo: Servir una página estatica con Nginx, en lugar de Apache
 
-# Pasos
+## Pasos
 
 1. Desinstala Apache:
 ```bash
