@@ -46,8 +46,9 @@ Servir una página estatica con Nginx, en lugar de Apache
    curl localhost
 ```
    ![Respuesta de Nginx desde local](img/nginx-response-from-local.png)
+   
 9. Desde el navegador del host:
-    ![Respuesta de Nginx desde el navegador del host](img/nginx-response-from-host-navigator.png)
+  ![Respuesta de Nginx desde el navegador del host](img/nginx-response-from-host-navigator.png)
 
 
 ## Problemas y soluciones
