@@ -11,8 +11,6 @@ Servir una página estatica con Nginx, en lugar de Apache
 
 ## Pasos
 
-### Paso 1: título del paso
-
 1. Desinstala Apache:
 ```bash
    sudo apt purge -y apache2
@@ -54,9 +52,11 @@ Servir una página estatica con Nginx, en lugar de Apache
 
 ## Problemas y soluciones
 **Síntoma:** 
+
 **Diagnóstico:**
+
 **Causa:** 
+
 **Solución:**
 
-## Qué aprendí
--
+
