@@ -1,14 +1,6 @@
-# NN - Título del escenario
+## Página estatica con Nginx y docker
 
-Página estatica con Nginx y docker
-
-## Objetivo
-Servir una página estatica desde un contenedor con Nginx
-
-## Entorno
-| VM | IP | SO | Rol |
-|----|----|----|-----|
-| debianworker | 192.168.84.131 | debian13  | worker |
+Objetivo: servir una página estatica desde un contenedor con Nginx
 
 ## Pasos
 
@@ -28,6 +20,7 @@ Servir una página estatica desde un contenedor con Nginx
 
 
 ## Problemas y soluciones
+
 **Síntoma:** Al hacer 'curl localhost', Nginx del contenedor no servia el index.
 
 **Diagnóstico:** Verifiqué con un 'sudo ss -tlnp | grep ':80' por quién estaba siendo ocupado el puerto 80, y figuraba que por el contenedor docker.
