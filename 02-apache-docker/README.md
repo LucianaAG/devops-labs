@@ -72,5 +72,4 @@ Cómo comprobé que funciona.
 **Solución:** Desactivé Apache con `sudo systemctl stop apache2` y con `sudo systemctl disable apache2` y dejé el puerto libre para el Apache que iba a correr dentro del contenedor para servir el index.html.
 
 ## Qué aprendí
-- Dos diferentes procesos no pueden escuchar en el mismo puerto. O desactivamos un proceso, o lo configuramos para que escuche en un puerto diferente.
 - La imagen de Apache que corre dentro del contenedor, busca los archivos estaticos desde /usr/local/apache2/htdocs, no desde /var/www/ como lo hace el Apache instalado directamente en la VM. Así que tuve que tomar el index.html desde /var/www/ y "moverlo" a /usr/local/apache2/htdocs dentro del contenedor, así la imagen oficial de Apache que corre en el contenedor lo rescata de la dirección adecuada para servirlo.
