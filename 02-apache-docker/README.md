@@ -1,4 +1,4 @@
-# 02 - Apache en Docker: página estática que muestra el nombre del servidor
+# página estática que muestra el nombre del servidor
 
 ## Objetivo
 Servir la misma página estática del escenario 1, pero desde un contenedor Docker
